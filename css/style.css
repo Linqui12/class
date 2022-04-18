@@ -1,0 +1,28 @@
+ :root{
+  font-size: 20px;
+} 
+*{
+  box-sizing: border-box;
+}
+.container{
+  border: 5px solid #bbb;
+}
+.item{
+  /* width: 50px;
+  height: 50p; */
+  padding: 0.5em;
+  /* margin: 1em; */
+  border: 5px solid #0ff;
+  background-color: pink;
+  font-size: 1.5em;
+  text-align: center;
+}
+.flex-parent{
+ min-height: 60vh;  
+ max-height: 70vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
